@@ -1,0 +1,43 @@
+/* HeroDetailComponent's private CSS styles */
+label {
+  color: #435960;
+  font-weight: bold;
+}
+span {
+  color: #435960;
+  font-weight: bold;
+}
+input {
+  font-size: 1em;
+  padding: 0.5rem;
+}
+
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+.return-btn {
+  background: #eee;
+  margin-top: 20px;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.return-btn:hover{
+  color: #333;
+  background: #ddd;
+}
+.save-btn {
+  background: #4caf50;
+  margin-top: 20px;
+  margin-right: 0.5rem;
+  color: #eee;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.save-btn:hover{
+  background: #3e8e41;
+}
